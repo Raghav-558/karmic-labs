@@ -1,14 +1,18 @@
 import React from 'react'
 import { PRODUCTS_LIST } from '../utils/helper'
 import SubHeading from '../common/SubHeading'
+import CustomButton from '../common/CustomButton'
 
 const Projects = () => {
   return (
-    <div className='pt-[95px] pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
+    <div
+      className='pt-[95px] pb-[136px] max-md:py-[60px] relative max-w-[1440px] mx-auto'
+      id='projects'
+    >
       <div className='absolute h-[100px] w-[100px] rounded-full bg-white blur-[60px] right-0 bottom-0'></div>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <SubHeading text={'upcoming projects'} />
-        <div className='flex max-xl:flex-wrap gap-[29px] max-xl:justify-center pt-12'>
+        <div className='flex max-xl:flex-wrap gap-[29px] max-xl:justify-center pt-12 max-md:pt-8'>
           {PRODUCTS_LIST.map((obj, i) => (
             <div className='p-4 border border-white border-opacity-10 rounded-xl card-shadow bg-white bg-opacity-10'>
               <img
@@ -29,6 +33,14 @@ const Projects = () => {
               </p>
             </div>
           ))}
+        </div>
+        <div className='flex justify-center pt-12 max-md:pt-8'>
+          <CustomButton
+            buttonText={'View All'}
+            myClass={
+              'font-medium leading-5 border border-white text-white font-sunflower py-[11.5px] px-8 rounded-[82px] hover:bg-white hover:text-black transition-all duration-300'
+            }
+          />
         </div>
       </div>
     </div>

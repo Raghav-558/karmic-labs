@@ -11,7 +11,7 @@ const Services = () => {
       <div className='absolute size-[209px] rounded-full left-[-80px] bottom-[-60px] bg-white blur-[110px] '></div>
       <div className='max-w-[1145px] w-full mx-auto flex flex-col'>
         <SubHeading text='services' />
-        <div className='flex pt-[77px] max-lg:pt-16 max-md:pt-12 max-sm:pt-8 gap-y-10 flex-wrap max-lg:justify-center'>
+        <div className='flex pt-[77px] max-lg:pt-16 max-md:pt-8 gap-y-10 flex-wrap max-lg:justify-center'>
           {SERVICES_LIST.map((item, i) => (
             <div key={i} className='w-1/3 max-md:w-1/2 max-sm:w-full px-2'>
               <div className='p-5 relative z-10 transition-all duration-300 border border-transparent hover:border-white hover:border-opacity-10 rounded-xl box-shadow hover:bg-white hover:bg-opacity-10'>

@@ -46,7 +46,7 @@ const Hero = () => {
                       'bg-white text-light-black py-[11.2px] px-6 rounded-[82px] hover:bg-transparent hover:text-white border border-transparent hover:border-white'
                     }
                     mySvg={
-                      <ButtonArrow myClass='transition-all duration-300 group-hover:fill-white' />
+                      <ButtonArrow myClass='transition-all duration-300 button-arrow' />
                     }
                   />
                   <CustomButton
@@ -66,7 +66,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <HeroArrowIcon myClass='absolute left-1/2  max-md:hidden mx-auto' />
+          <HeroArrowIcon myClass='' />
         </div>
       </div>
     </>
