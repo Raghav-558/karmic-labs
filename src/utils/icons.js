@@ -13,7 +13,7 @@ export const MenuIcon = () => (
 )
 
 export const BackToTopIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#32C7F1" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
         <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0" />
     </svg>
 )
@@ -25,7 +25,7 @@ export const ButtonArrow = ({ myClass }) => (
 )
 
 export const HeroArrowIcon = ({ myClass }) => {
-    <svg className={`${myClass}`} width="16" height="52" viewBox="0 0 16 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={`${myClass}`} width="16" height="52" viewBox="0 0 16 52" fill="white" xmlns="http://www.w3.org/2000/svg">
         <path opacity="0.7" d="M7.2929 51.7071C7.68342 52.0976 8.31658 52.0976 8.70711 51.7071L15.0711 45.3431C15.4616 44.9526 15.4616 44.3195 15.0711 43.9289C14.6805 43.5384 14.0474 43.5384 13.6569 43.9289L8 49.5858L2.34315 43.9289C1.95262 43.5384 1.31946 43.5384 0.928934 43.9289C0.53841 44.3195 0.53841 44.9526 0.928934 45.3431L7.2929 51.7071ZM7 4.37114e-08L7 51L9 51L9 -4.37114e-08L7 4.37114e-08Z" fill="white" />
     </svg>
 }

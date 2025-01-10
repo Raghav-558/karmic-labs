@@ -9,10 +9,12 @@ module.exports = {
         "light-black": "#040404",
         "dark-blue": "#32C7F1",
         "light-gray": "#fffff1A",
-        "dark-sky": "#0c0838"
+        "dark-sky": "#0c0838",
+        gray : "#4D4D4D"
       },
       backgroundImage: {
         'hero-layer': "url('./assets/images/hero-gray-layer.webp')",
+        'white-layer': "url('./assets/images/white-layer.webp')",
       },
       screens: {
         xlg: '1050px',

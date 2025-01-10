@@ -10,15 +10,15 @@ const Hero = () => {
   return (
     <>
       <div className='relative max-w-[1440px] mx-auto' id='home'>
-        <div className='absolute size-[184px] rounded-full bg-white shadow-[5px_4px_1px_1px] blur-[130px] -z-10 shadow-white -left-[10%] -top-[8%]'></div>
+        <div className='absolute size-[184px] rounded-full bg-white blur-[110px] -z-10 shadow-white -left-[10%] -top-[8%]'></div>
         <div className='max-w-[1172px] mx-auto px-4'>
           <Header />
         </div>
         <div className='bg-hero-layer bg-no-repeat min-h-[726px] max-sm:h-[760px] bg-cover bg-top -mt-2.5 relative'>
           <div className=' max-w-[1172px] mx-auto px-4'>
-            <div className='flex flex-wrap pt-[163px] max-lg:pt-[60px] max-md:pt-[60px]'>
+            <div className='flex flex-wrap pt-[173px] max-lg:pt-[90px] max-md:pt-20 max-sm:pt-10 relative'>
               <div className='w-7/12 max-lg:w-full'>
-                <h1 className='font-sunflower font-light text-[64px] leading-[69.53px] text-white lg:max-w-[570px] max-lg:text-center uppercase max-lg:text-6xl max-md:text-5xl max-sm:text-4xl'>
+                <h1 className='font-sunflower font-light text-[64px] leading-[69.53px] text-white lg:max-w-[570px] max-lg:text-center uppercase max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-sm:pt-10'>
                   We are believers decentralization and {''}
                   <span className='relative'>
                     <img
@@ -43,7 +43,7 @@ const Hero = () => {
                   <CustomButton
                     buttonText={'Get Started'}
                     myClass={
-                      'bg-white text-light-black py-[11.2px] px-6 rounded-[82px] hover:bg-transparent hover:text-white border border-transparent hover:border-white'
+                      'bg-white text-light-black py-[11.2px] px-6 rounded-[82px] hover:bg-transparent hover:text-white border border-transparent hover:border-white hover:path-white max-sm:py-2.5 max-sm:px-4'
                     }
                     mySvg={
                       <ButtonArrow myClass='transition-all duration-300 button-arrow' />
@@ -57,7 +57,7 @@ const Hero = () => {
                   />
                 </div>
               </div>
-              <div className='w-5/12 max-lg:w-full max-lg:pt-8'>
+              <div className='w-5/12 max-lg:w-full max-lg:pt-5'>
                 <img
                   src={HeroImage}
                   alt='hero-section-image'
@@ -66,7 +66,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <HeroArrowIcon myClass='' />
         </div>
       </div>
     </>
