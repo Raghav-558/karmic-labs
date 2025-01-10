@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&display=swap');
+
+body {
+  background-image: url('./assets/images/body-image.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-shadow {
+  backdrop-filter: blur(30px);
+  box-shadow: 0px -1px 20px 0px #ffffff1a;
+}
+
+.box-shadow:hover {
+  backdrop-filter: blur(16px);
+  box-shadow: 0px 4px 20px 0px #00000026;
+}
