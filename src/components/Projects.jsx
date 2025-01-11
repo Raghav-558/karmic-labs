@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='bg-white-layer max-md:bg-white bg-cover bg-top min-h-[902px] max-xl:h-[1065px] max-lg:h-[1050px] max-md:h-full'
+      className='bg-white-layer max-md:bg-white bg-cover bg-top min-h-[902px] max-xl:h-[1065px] max-lg:h-[1050px] max-md:h-full 2xl:bg-white'
     >
       <div className='max-w-[1172px] mx-auto px-4 max-md:pb-[60px]'>
         <div className='pt-[96px] max-md:pt-[60px]'>

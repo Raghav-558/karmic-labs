@@ -37,7 +37,7 @@ const Header = () => {
             <li key={i}>
               <a
                 href={obj.link}
-                className='font-bold font-sunflower leading-5 text-white hover:text-dark-blue transition-all duration-300'
+                className='font-medium font-sunflower text-base leading-5 text-white hover:text-dark-blue transition-all duration-300'
               >
                 {obj.title}
               </a>
@@ -69,7 +69,7 @@ const Header = () => {
               <a
                 onClick={() => setOpen(false)}
                 href={obj.link}
-                className='text-base leading-5 font-bold font-sunflower text-white'
+                className='text-base leading-5 font-medium font-sunflower text-white hover:text-dark-blue transition-all duration-300'
               >
                 {obj.title}
               </a>
