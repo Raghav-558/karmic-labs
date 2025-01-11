@@ -31,7 +31,7 @@ const UpcomingProjects = () => {
                   {obj.time}
                 </p>
               </div>
-              <p className='font-spacegrotest font-light text-base leading-7 text-white'>
+              <p className='font-spacegrotest !font-light text-base leading-7 text-white'>
                 {obj.description}
               </p>
             </div>

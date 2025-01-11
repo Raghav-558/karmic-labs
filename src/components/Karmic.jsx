@@ -17,10 +17,10 @@ const Karmic = () => {
           myImage={WhiteLine}
           myclass={'bottom-'}
         />
-        <p className='pt-[18px] text-white text-center font-spacegrotest leading-7'>
+        <p className='pt-[18px] text-white text-center font-spacegrotest leading-7 max-sm:text-sm'>
           We are builders, innovaters, and believers.
         </p>
-        <p className='pt-[2px] text-white text-center font-spacegrotest max-w-[525px] mx-auto leading-7'>
+        <p className='pt-[2px] text-white text-center font-spacegrotest max-sm:text-sm max-w-[525px] mx-auto leading-7'>
           We believe in a future that rests in your hands, and yours alone. The
           future is decentralized, The future is web3.
         </p>

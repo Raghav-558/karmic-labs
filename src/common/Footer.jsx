@@ -6,11 +6,11 @@ const Footer = () => {
   const year = new Date().getFullYear()
   return (
     <footer id='about' className='pt-[100px] max-lg:pt-20 max-md:pt-[60px] max-sm:pt-0'>
-      <a href='/'>
+      <a href='#logo'>
         <img
           src={FooterLogo}
           alt='logo'
-          className='w-full max-w-[255px] mx-auto'
+          className='w-full max-w-[255px] max-sm:max-w-[200px] mx-auto'
         />
       </a>
       <div className='flex items-center gap-6 justify-center pt-[69px] max-md:pt-10'>

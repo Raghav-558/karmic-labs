@@ -9,7 +9,8 @@ module.exports = {
         "light-black": "#040404",
         "dark-blue": "#32C7F1",
         "light-gray": "#ffffff1a",
-        "gray" : "#4D4D4D"
+        "gray": "#4D4D4D",
+        "dark-gray": "#3B3B3B"
       },
       backgroundImage: {
         'hero-layer': "url('./assets/images/hero-gray-layer.webp')",
