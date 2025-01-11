@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='pt-[96px] max-md:pt-[60px]'>
           <SubHeading
             text={'Projects'}
-            myClass={'!text-black'}
+            myclass={'!text-black'}
             myImage={BlackLine}
           />
           <p className='max-w-[532px] mx-auto text-center pt-6 text-light-black max-sm:text-sm font-spacegrotest'>
@@ -29,8 +29,7 @@ const Projects = () => {
               key={i}
               className='w-3/12 max-xl:w-1/3 max-md:w-1/2 max-sm:w-full px-2 pt-6'
             >
-              <div
-                className='!max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center'>
+              <div className='!max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center'>
                 <img
                   className='w-full rounded-lg'
                   src={obj.image}
@@ -48,7 +47,7 @@ const Projects = () => {
         <div className='flex justify-center pt-14 max-lg:pt-10 max-md:pt-8'>
           <CustomButton
             buttonText={'View All'}
-            myClass={
+            myclass={
               'font-medium border border-light-black text-light-black font-sunflower py-[11.5px] px-8 rounded-[82px] hover:bg-black hover:text-white transition-all duration-300'
             }
           />

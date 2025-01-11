@@ -6,8 +6,8 @@ import WhiteLine from '../assets/images/heading-lines.webp'
 
 const UpcomingProjects = () => {
   return (
-    <div id='about'
-      className='pt-[95px] pb-[136px] max-md:py-[60px] relative max-w-[1440px] mx-auto'
+    <div
+      className='pt-[95px] pb-[136px] max-lg:py-20 max-md:py-[60px] relative max-w-[1440px] mx-auto'
     >
       <div className='absolute size-[182px] rounded-full bg-white blur-[110px] right-0 bottom-0'></div>
       <div className='max-w-[1172px] px-4 mx-auto'>
@@ -40,7 +40,7 @@ const UpcomingProjects = () => {
         <div className='flex justify-center pt-12 max-md:pt-8'>
           <CustomButton
             buttonText={'View All'}
-            myClass={
+            myclass={
               'font-medium border border-white text-white font-sunflower py-[11.5px] px-8 rounded-[82px] hover:bg-white hover:text-black transition-all duration-300'
             }
           />

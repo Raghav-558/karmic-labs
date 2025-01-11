@@ -11,7 +11,10 @@ import ProjectFifth from '../assets/images/project-fifth.webp'
 import ProjectSixth from '../assets/images/project-sixth.webp'
 import ProjectSeventh from '../assets/images/project-seventh.webp'
 import ProjectEighth from '../assets/images/project-eighth.webp'
-import { ConsultationIcon, MarketingIcon, NftIcon, SmartContractIcon, WebServicesIcon } from './icons'
+import KarmicFirst from '../assets/images/karmic-first.webp'
+import KarmicSecond from '../assets/images/karmic-second.webp'
+import KarmicThird from '../assets/images/karmic-third.webp'
+import { BlockchainIcon, ConsultationIcon, FacebookIcon, InstagramIcon, MarketingIcon, NftIcon, SmartContractIcon, TrustIcon, TwitterIcon, W3Icon, WebServicesIcon, YoutubeIcon } from './icons'
 
 export const HEADER_LIST = [
     {
@@ -131,4 +134,59 @@ export const PROJECTS_LISTS = [
         image: ProjectEighth,
         title: 'Nubbies'
     }
+]
+
+export const KARMIC_LIST = [
+    {
+        image: KarmicFirst,
+        alt: "karmic-image"
+    },
+    {
+        image: KarmicSecond,
+        alt: "karmic-image"
+    },
+    {
+        image: KarmicThird,
+        alt: "karmic-image"
+    },
+]
+
+export const VALUES_LIST = [
+    {
+        circle: CircleImage,
+        icon: <W3Icon />,
+        title: 'W3',
+        description: 'Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.'
+    },
+    {
+        circle: CircleImage,
+        icon: <BlockchainIcon />,
+        title: 'Blockchain Agnostic',
+        description: 'Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..'
+    },
+    {
+        circle: CircleImage,
+        icon: <TrustIcon />,
+        title: 'Trust',
+        description: 'Trustless and results driven development backed by a portfolio of success. Youre the captain of the ship, and the keys are always in your hands.'
+    }
+]
+
+export const SOCIAL_LIST = [
+    {
+        icon: <InstagramIcon />,
+        link: 'https://www.instagram.com/accounts/login/?hl=en'
+    },
+    {
+        icon: <TwitterIcon />,
+        link: 'https://x.com/i/flow/login?lang=en'
+    },
+    {
+        icon: <FacebookIcon />,
+        link: 'https://www.facebook.com/'
+    },
+    {
+        icon: <YoutubeIcon />,
+        link: 'https://www.youtube.com/'
+    },
 ]

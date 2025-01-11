@@ -48,16 +48,16 @@ const Hero = () => {
                 <div className='flex items-center gap-8 pt-10 max-md:pt-5 max-lg:justify-center'>
                   <CustomButton
                     buttonText={'Get Started'}
-                    myClass={
+                    myclass={
                       'bg-white text-light-black py-[11.2px] px-6 rounded-[82px] hover:bg-transparent hover:text-white border border-transparent hover:border-white hover:path-white max-sm:py-2.5 max-sm:px-4'
                     }
                     mySvg={
-                      <ButtonArrow myClass='transition-all duration-300 button-arrow' />
+                      <ButtonArrow myclass='transition-all duration-300 button-arrow' />
                     }
                   />
                   <CustomButton
                     buttonText={'Read More'}
-                    myClass={
+                    myclass={
                       'bg-transparent font-light text-white py-[11.2px] px-[31.5px] border border-white rounded-[82px] hover:bg-white hover:text-light-black transition-all duration-300'
                     }
                   />

@@ -46,7 +46,7 @@ const Header = () => {
         </ul>
         <CustomButton
           buttonText={'Connect Wallet'}
-          myClass={
+          myclass={
             'max-lg:hidden rounded-[82px] py-[11.4px] px-8 bg-white button-bg hover:text-white border border-transparent hover:border-white hover:bg-black transition-all duration-300'
           }
         />
@@ -78,7 +78,7 @@ const Header = () => {
           <CustomButton
             customOnClick={() => setOpen(false)}
             buttonText={'Connect Wallet'}
-            myClass={
+            myclass={
               'rounded-[82px] py-[11.4px] px-[27.5px] bg-white button-bg hover:text-white border border-transparent hover:border-white hover:bg-black transition-all duration-300'
             }
           />
