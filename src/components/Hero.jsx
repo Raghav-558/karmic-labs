@@ -9,14 +9,20 @@ import BottomLine from '../assets/images/text-top-line.webp'
 const Hero = () => {
   return (
     <>
-      <div className='relative max-w-[1440px] mx-auto' id='home'>
+      <div className='relative' id='home'>
         <div className='absolute size-[184px] rounded-full bg-white blur-[110px] -z-10 shadow-white -left-[10%] -top-[8%]'></div>
         <div className='max-w-[1172px] mx-auto px-4'>
           <Header />
         </div>
-        <div className='bg-hero-layer bg-no-repeat min-h-[726px] max-sm:h-[760px] bg-cover bg-top -mt-2.5 relative'>
+        <div className='bg-hero-layer bg-no-repeat min-h-[726px] max-lg:h-[880px] max-md:h-[580px] max-sm:h-[760px] bg-cover bg-top -mt-2.5 relative'>
+          <a
+            href='#home'
+            className='absolute left-1/2 -translate-x-1/2 bottom-[9%] max-lg:hidden'
+          >
+            <HeroArrowIcon />
+          </a>
           <div className=' max-w-[1172px] mx-auto px-4'>
-            <div className='flex flex-wrap pt-[173px] max-lg:pt-[90px] max-md:pt-20 max-sm:pt-10 relative'>
+            <div className='flex flex-wrap pt-[173px] max-lg:pt-[90px] max-md:pt-20 max-sm:pt-10'>
               <div className='w-7/12 max-lg:w-full'>
                 <h1 className='font-sunflower font-light text-[64px] leading-[69.53px] text-white lg:max-w-[570px] max-lg:text-center uppercase max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-sm:pt-10'>
                   We are believers decentralization and {''}

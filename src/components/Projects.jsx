@@ -27,20 +27,17 @@ const Projects = () => {
           {PROJECTS_LISTS.map((obj, i) => (
             <div
               key={i}
-              className={`w-3/12 max-xl:w-1/3 max-md:w-1/2 max-sm:w-full px-2 pt-6`}
+              className='w-3/12 max-xl:w-1/3 max-md:w-1/2 max-sm:w-full px-2 pt-6'
             >
               <div
-                className={`!max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center  ${
-                  i === 0 ? 'bg-sky-blue' : ''
-                }`}
-              >
+                className='!max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center'>
                 <img
                   className='w-full rounded-lg'
                   src={obj.image}
                   alt='projects-image'
                 />
                 <div className='absolute min-h-[47px] flex justify-center items-center image-box-bg bg-gray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
-                  <p className='text-white text-lg leading-[21px] font-bold font-sunflower'>
+                  <p className='text-white text-xl max-sm:text-sm leading-[21px] font-bold font-sunflower'>
                     {obj.title}
                   </p>
                 </div>
