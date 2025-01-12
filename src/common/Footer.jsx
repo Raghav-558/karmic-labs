@@ -10,14 +10,14 @@ const Footer = () => {
         <img
           src={FooterLogo}
           alt='logo'
-          className='w-full max-w-[255px] max-sm:max-w-[200px] mx-auto'
+          className='w-full max-w-[255px] max-sm:max-w-[180px] mx-auto'
         />
       </a>
-      <div className='flex items-center gap-6 justify-center pt-[69px] max-md:pt-10'>
+      <div className='flex items-center gap-6 max-sm:gap-4 justify-center pt-[69px] max-md:pt-10'>
         {SOCIAL_LIST.map((obj, i) => (
           <div
             key={i}
-            className='flex items-center justify-center rounded-full bg-white border border-white size-[35px] transition-all duration-300'
+            className='flex items-center justify-center rounded-full bg-white border border-white size-[35px] hover:scale-110 duration-300 ease-linear'
           >
             <a href={obj.link} target='_blank'>
               {obj.icon}

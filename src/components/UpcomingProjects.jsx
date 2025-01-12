@@ -16,7 +16,7 @@ const UpcomingProjects = () => {
           {UPCOMING_PRODUCTS_LIST.map((obj, i) => (
             <div
               key={i}
-              className='p-4 border border-white border-opacity-10 rounded-xl card-shadow bg-white bg-opacity-10'
+              className='p-4 border border-white border-opacity-10 rounded-xl bg-white bg-opacity-10 shadow-[_0px_-1px_20px_0px] shadow-light-gray card-blur'
             >
               <img
                 src={obj.image}

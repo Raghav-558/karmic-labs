@@ -51,7 +51,7 @@ const Header = () => {
           }
         />
         <div
-          className={`md:hidden z-30 cursor-pointer`}
+          className={`lg:hidden z-30 cursor-pointer`}
           onClick={() => setOpen(!open)}
         >
           <div className={`flex flex-col gap-[4px] items-center`}>

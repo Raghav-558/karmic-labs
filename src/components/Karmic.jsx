@@ -24,17 +24,16 @@ const Karmic = () => {
           We believe in a future that rests in your hands, and yours alone. The
           future is decentralized, The future is web3.
         </p>
-        ;
-        <div className='flex items-center flex-wrap gap-4 justify-center'>
+        <div className='flex items-center flex-wrap gap-4 justify-center pt-10'>
           {KARMIC_LIST.map((obj, i) => (
             <div
               key={i}
-              className='shadow-[_0px_4px_15px_0px] shadow-light-gray rounded-lg group overflow-hidden'
+              className='shadow-[_0px_4px_15px_0px] shadow-light-gray rounded-lg'
             >
               <img
                 src={obj.image}
                 alt={obj.alt}
-                className='w-full max-w-[369px] pointer-events-none border border-white border-opacity-20 rounded-lg group-hover:border-transparent transition-all duration-300'
+                className='w-full max-w-[369px] pointer-events-none border border-white border-opacity-20 rounded-lg'
               />
             </div>
           ))}
