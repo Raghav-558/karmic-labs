@@ -14,14 +14,14 @@ const Values = () => {
               key={i}
               className='w-1/3 max-md:w-1/2 max-sm:w-full relative group max-h-max'
             >
-              <div className='absolute -top-[20px] -right-4 -z-10 hidden group-hover:block transition-all duration-300 ease-in-out'>
+              <div className='absolute -top-[20px] -right-4 lg:right-[-24px] -z-10 hidden group-hover:block transition-all duration-300 ease-in-out'>
                 <img
                   src={obj.circle}
                   alt='circle-image'
                   className='size-[74px]'
                 />
               </div>
-              <div className='p-5 max-sm:p-4 relative group transition-all duration-300 border border-transparent hover:border-white hover:border-opacity-10 rounded-xl box-shadow hover:bg-white max-w-[369px] mx-auto hover:bg-opacity-10 cursor-pointer'>
+              <div className='p-5 max-sm:p-4 relative group transition-all duration-300 border border-transparent hover:border-white hover:border-opacity-10 rounded-xl box-shadow hover:bg-white max-w-[369px] h-full mx-auto hover:bg-opacity-10 cursor-pointer'>
                 {obj.icon}
                 <h3 className='font-bold text-xl leading-[25.52px] font-spacegrotest text-white max-sm:text-lg pt-[10px]'>
                   {obj.title}

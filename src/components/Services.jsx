@@ -25,7 +25,7 @@ const Services = () => {
                   className='size-[74px] pointer-events-none'
                 />
               </div>
-              <div className='p-5 max-md:p-4 relative group transition-all duration-300 border border-transparent hover:border-white hover:border-opacity-10 rounded-xl box-shadow hover:bg-white max-w-[369px] mx-auto hover:bg-opacity-10 cursor-pointer'>
+              <div className='p-5 max-md:p-4 relative group transition-all duration-300 border border-transparent hover:border-white hover:border-opacity-10 rounded-xl box-shadow hover:bg-white max-w-[369px] h-full mx-auto hover:bg-opacity-10 cursor-pointer'>
                 {obj.icon}
                 <h3 className='font-bold text-xl leading-[26px] font-spacegrotest text-white max-sm:text-lg pt-5'>
                   {obj.title}
