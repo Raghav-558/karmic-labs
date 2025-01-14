@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { HEADER_LIST } from '../utils/helper'
 import CustomButton from './CustomButton'
 import logo from '../assets/images/page-logo.webp'
-import { CloseIcon, MenuIcon } from '../utils/icons'
 
 const Header = () => {
   const [open, setOpen] = useState()
