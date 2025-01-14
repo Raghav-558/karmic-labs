@@ -5,7 +5,7 @@ import { VALUES_LIST } from '../utils/helper'
 
 const Values = () => {
   return (
-    <div id='services' className='max-md:py-[60px]'>
+    <div id='values' className='max-md:py-[60px]'>
       <div className='max-w-[1172px] px-4 w-full mx-auto flex flex-col'>
         <SubHeading text={'values'} myImage={WhiteLine} />
         <div className='flex pt-[77px] max-lg:pt-16 max-md:pt-10 gap-y-10 flex-wrap max-lg:justify-center'>

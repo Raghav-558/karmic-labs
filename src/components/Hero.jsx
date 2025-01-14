@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className='bg-hero-layer bg-no-repeat min-h-[726px] max-lg:h-[880px] max-md:h-[580px] max-sm:h-[760px] bg-cover bg-top -mt-2.5 relative'>
           <a
-            href='#home'
+            href='#values'
             className='absolute left-1/2 -translate-x-1/2 bottom-[9%] max-lg:hidden'
           >
             <HeroArrowIcon />
@@ -67,7 +67,7 @@ const Hero = () => {
                 <img
                   src={HeroImage}
                   alt='hero-section-image'
-                  className='max-w-[398px] mx-auto max-md:max-w-[300px]'
+                  className='max-w-[398px] mx-auto max-md:max-w-[300px] pointer-events-none'
                 />
               </div>
             </div>

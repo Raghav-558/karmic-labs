@@ -14,7 +14,6 @@ const Karmic = () => {
         <SubHeading
           text={'Who is karmic?'}
           myImage={WhiteLine}
-          myclass={'bottom-'}
         />
         <p className='pt-[18px] text-white text-center font-spacegrotest leading-7 max-sm:text-sm'>
           We are builders, innovaters, and believers.

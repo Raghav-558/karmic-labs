@@ -9,7 +9,7 @@ const SubHeading = ({ text, myclass, myImage }) => {
       <img
         src={myImage}
         alt='title-line'
-        className='absolute -top-[28px] left-1/2 -translate-x-1/2 max-w-[400px] max-md:max-w-[300px] max-md:top-[-10px] max-sm:top-[-20px]'
+        className='absolute -top-[28px] left-1/2 -translate-x-1/2 max-w-[400px] max-md:max-w-[300px] max-md:top-[-10px] max-sm:top-[-20px] pointer-events-none'
       />
     </h2>
   )

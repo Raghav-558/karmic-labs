@@ -21,7 +21,7 @@ const UpcomingProjects = () => {
               <img
                 src={obj.image}
                 alt='Projects-image'
-                className='max-w-[231px] rounded-xl'
+                className='max-w-[231px] rounded-xl pointer-events-none'
               />
               <div className='flex items-center justify-between pt-[15px]'>
                 <p className='font-sunflower font-medium text-xl leading-6 text-white'>
